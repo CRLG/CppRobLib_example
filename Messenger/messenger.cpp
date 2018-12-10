@@ -33,7 +33,7 @@ void Messenger::test_RX()
     // Simulate data reception
     // Message_TIMESTAMP_MATCH : ID 0x0001
     unsigned char data[] = { 'T', 0x00, 0x01, 0x02, 0x00, 0x11, 0x14 };
-    for (int i=0; i<sizeof(data);  i++) {
+    for (unsigned int i=0; i<sizeof(data);  i++) {
         m_transporter.decode(data[i]);
     }
 }

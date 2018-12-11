@@ -4,7 +4,7 @@
 #include "databasedemo.h"
 #include "transportergeneric.h"
 #include "messengerevent.h"
-#include "comdriver.h"
+#include "messengerinterface.h"
 
 // ====================================================
 //
@@ -22,7 +22,7 @@ public:
     DatabaseDemo m_database;
     TransporterGeneric m_transporter;
     MessengerEvent m_event_manager;
-    ComDriverApp m_com_driver;
+    MessengerInterface m_messenger_interface;
 
 
 private :

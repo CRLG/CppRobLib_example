@@ -1,3 +1,6 @@
 [submodule "Messenger/ext/CppRobLib"]
 	path = Messenger/ext/CppRobLib
 	url = https://github.com/CRLG/CppRobLib.git
+[submodule "Xbee/ext/CppRobLib"]
+	path = Xbee/ext/CppRobLib
+	url = https://github.com/CRLG/CppRobLib.git

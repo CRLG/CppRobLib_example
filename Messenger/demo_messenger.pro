@@ -40,6 +40,7 @@ SOURCES += \
         ext/CppRobLib/Communication/Messenger/messagebase.cpp \
         ext/CppRobLib/Communication/Messenger/transporterbase.cpp \
         ext/CppRobLib/Communication/Messenger/transportergeneric.cpp \
+        ext/CppRobLib/Communication/Messenger/messengerinterfacebase.cpp \
         ext/CppRobLib/Communication/Messenger/MessagesGeneric/message_timestamp_match.cpp \
         ext/CppRobLib/Communication/Messenger/MessagesCup2019/message_experience_status.cpp \
 

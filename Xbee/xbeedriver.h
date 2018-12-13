@@ -1,12 +1,12 @@
 #ifndef XBEE_DRIVER_INTERFACE_H_
 #define XBEE_DRIVER_INTERFACE_H_
 
-#include "xbeedriverinterfacebase.h"
+#include "xbeedriverbase.h"
 
-class XbeeDriverInterface : public XbeeDriverInterfaceBase
+class XbeeDriver : public XbeeDriverBase
 {
 public:
-    XbeeDriverInterface();
+    XbeeDriver();
 
     // pure virtual methods from parent class.
     // this method is called by driver to inform a valid buffer ws receinved and now ready to be used by application

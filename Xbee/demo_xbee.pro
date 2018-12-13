@@ -29,16 +29,13 @@ INCLUDEPATH+= \
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-        xbeedriverinterface.cpp \
-        ext/CppRobLib/Communication/XBEE/xbeedriver.cpp \
-
-
+        xbeedriver.cpp \
+        ext/CppRobLib/Communication/XBEE/xbeedriverbase.cpp
 
 HEADERS += \
         mainwindow.h \
-        xbeedriverinterface.h \
-        ext/CppRobLib/Communication/XBEE/xbeedriver.h \
-        ext/CppRobLib/Communication/XBEE/xbeedriverinterfacebase.h \
+        xbeedriver.h \
+        ext/CppRobLib/Communication/XBEE/xbeedriverbase.h
 
 FORMS += \
         mainwindow.ui

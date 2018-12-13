@@ -2,8 +2,8 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "xbeedriverbase.h"
 #include "xbeedriver.h"
-#include "xbeedriverinterface.h"
 
 namespace Ui {
 class MainWindow;
@@ -19,7 +19,7 @@ public:
 
     void initXbee();
 
-    XbeeDriverInterface m_xbee;
+    XbeeDriver m_xbee;
 
 private:
     Ui::MainWindow *ui;

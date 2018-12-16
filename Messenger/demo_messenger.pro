@@ -33,7 +33,6 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
         messenger.cpp \
-        messengerinterface.cpp \
         databasedemo.cpp \
         ext/CppRobLib/Communication/Messenger/messengerinterfacebase.cpp \
         ext/CppRobLib/Communication/Messenger/databasebase.cpp \
@@ -48,7 +47,6 @@ HEADERS += \
         mainwindow.h \
         messenger.h \
         databasedemo.h \
-        messengerinterface.h \
         ext/CppRobLib/Communication/Messenger/messengerinterfacebase.h \
         ext/CppRobLib/Communication/Messenger/databasebase.h \
         ext/CppRobLib/Communication/Messenger/messagebase.h \

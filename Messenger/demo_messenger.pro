@@ -33,14 +33,13 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
         messenger.cpp \
-        messengerevent.cpp \
         messengerinterface.cpp \
         databasedemo.cpp \
+        ext/CppRobLib/Communication/Messenger/messengerinterfacebase.cpp \
         ext/CppRobLib/Communication/Messenger/databasebase.cpp \
         ext/CppRobLib/Communication/Messenger/messagebase.cpp \
         ext/CppRobLib/Communication/Messenger/transporterbase.cpp \
         ext/CppRobLib/Communication/Messenger/transportergeneric.cpp \
-        ext/CppRobLib/Communication/Messenger/messengerinterfacebase.cpp \
         ext/CppRobLib/Communication/Messenger/MessagesGeneric/message_timestamp_match.cpp \
         ext/CppRobLib/Communication/Messenger/MessagesCup2019/message_experience_status.cpp \
 
@@ -48,18 +47,16 @@ SOURCES += \
 HEADERS += \
         mainwindow.h \
         messenger.h \
-        messengerevent.h \
         databasedemo.h \
         messengerinterface.h \
+        ext/CppRobLib/Communication/Messenger/messengerinterfacebase.h \
         ext/CppRobLib/Communication/Messenger/databasebase.h \
         ext/CppRobLib/Communication/Messenger/messagebase.h \
         ext/CppRobLib/Communication/Messenger/transporterbase.h \
         ext/CppRobLib/Communication/Messenger/transportergeneric.h \
         ext/CppRobLib/Communication/Messenger/messengerdef.h \
-        ext/CppRobLib/Communication/Messenger/messengereventbase.h \
         ext/CppRobLib/Communication/Messenger/MessagesGeneric/message_timestamp_match.h \
         ext/CppRobLib/Communication/Messenger/MessagesCup2019/message_experience_status.h \
-        ext/CppRobLib/Communication/Messenger/messengerinterfacebase.h
 
 
 FORMS += \
